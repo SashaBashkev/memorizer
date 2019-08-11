@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Memorize</title>
+  </head>
+  <body>
+    <h1>Memorizer</h1>
+    <div class="container">
+      <h3 class="text-center">
+        Select number of world to be replicated in a range between 1 and
+        <span class="max"></span>
+      </h3>
+
+      <div class="form">
+        <input type="number" class="wordsNumber" min="1" />
+
+        <input type="button" value="Play" class="play" />
+      </div>
+
+      <div class="checkForm">
+        <input type="text" class="checkInput" />
+        <input type="button" value="Check" class="checkBtn" />
+        <input type="button" value="Hint" class="hint" />
+      </div>
+      <ul class="output"></ul>
+    </div>
+    <script src="memorize.js"></script>
+  </body>
+</html>

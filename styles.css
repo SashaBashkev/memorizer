@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+}
+.container {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+h1 {
+  width: 100%;
+  padding: 20px;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+}
+h3 {
+  margin: 20px 0;
+}
+.form,
+.checkForm {
+  display: flex;
+  padding: 5px;
+}
+input[type="text"],
+input[type="number"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 24px;
+  font-family: inherit;
+}
+input[type="button"] {
+  border: none;
+  font-family: inherit;
+  padding: 5px;
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+ul {
+  margin-top: 15px;
+  list-style: none;
+  font-size: 24px;
+}
+ul li {
+  margin-top: 10px;
+}
